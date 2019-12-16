@@ -1,0 +1,160 @@
+<mk-box header="Dashboard" [isCollapsable]="false" [isRemovable]="false">
+  <div class="row">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-aqua"><i class="ion ion-ios-checkmark-outline"></i></span>
+        <div class="info-box-content">
+          <span class="info-box-text">'Approved'<br />Users</span>
+          <span class="info-box-number">90<small>%</small></span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-red"><i class="ion ion-ios-close-outline"></i></span>
+
+        <div class="info-box-content">
+          <span class="info-box-text">'To Be <br />Removed' Users</span>
+          <span class="info-box-number">41,410</span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+
+    <!-- fix for small devices only -->
+    <div class="clearfix visible-sm-block"></div>
+
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-green"
+          ><i class="ion ion-ios-cart-outline"></i
+        ></span>
+        <div class="info-box-content">
+          <span class="info-box-text">'Pending' <br />Accounts</span>
+          <span class="info-box-number">760</span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="info-box">
+        <span class="info-box-icon bg-yellow"
+          ><i class="ion ion-ios-people-outline"></i
+        ></span>
+
+        <div class="info-box-content">
+          <span class="info-box-text">New Members</span>
+          <span class="info-box-number">2,000</span>
+        </div>
+        <!-- /.info-box-content -->
+      </div>
+      <!-- /.info-box -->
+    </div>
+    <!-- /.col -->
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-center">
+        <strong>Pending Recertification of Reports</strong>
+      </p>
+
+      <div class="progress-group">
+        <span class="progress-text">Server/Share</span>
+        <span class="progress-number"><b>600</b>/1000</span>
+
+        <div class="progress sm">
+          <div class="progress-bar progress-bar-aqua" style="width: 60%"></div>
+        </div>
+      </div>
+      <!-- /.progress-group -->
+      <div class="progress-group">
+        <span class="progress-text">SQL</span>
+        <span class="progress-number"><b>320</b>/400</span>
+
+        <div class="progress sm">
+          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
+        </div>
+      </div>
+      <!-- /.progress-group -->
+      <div class="progress-group">
+        <span class="progress-text">Oracle</span>
+        <span class="progress-number"><b>480</b>/800</span>
+
+        <div class="progress sm">
+          <div class="progress-bar progress-bar-green" style="width: 60%"></div>
+        </div>
+      </div>
+      <!-- /.progress-group -->
+      <div class="progress-group">
+        <span class="progress-text">Oracle</span>
+        <span class="progress-number"><b>250</b>/500</span>
+
+        <div class="progress sm">
+          <div
+            class="progress-bar progress-bar-yellow"
+            style="width: 50%"
+          ></div>
+        </div>
+      </div>
+
+      <!-- /.progress-group -->
+      <div class="progress-group">
+        <span class="progress-text">AD Security Group</span>
+        <span class="progress-number"><b>600</b>/1000</span>
+        <div class="progress sm">
+          <div class="progress-bar progress-bar-blue" style="width: 60%"></div>
+        </div>
+      </div>
+      <div class="progress-group">
+        <span class="progress-text">Linux</span>
+        <span class="progress-number"><b>320</b>/400</span>
+        <div class="progress sm">
+          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
+        </div>
+      </div>
+      <div class="progress-group">
+        <span class="progress-text">SQL AD Security Group</span>
+        <span class="progress-number"><b>360</b>/800</span>
+        <div class="progress sm">
+          <div class="progress-bar progress-bar-blue" style="width: 40%"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- /.col -->
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-8">
+        <div style="display: block">
+
+          </div>
+
+      <div class="chart-responsive">
+        <canvas id="pieChart" height="160" width="205" style="width: 205px; height: 160px;"></canvas>
+      </div>
+      <!-- ./chart-responsive -->
+    </div>
+    <!-- /.col -->
+    <div class="col-md-4">
+      <ul class="chart-legend clearfix">
+        <li><i class="fa fa-circle-o text-red"></i> Chrome</li>
+        <li><i class="fa fa-circle-o text-green"></i> IE</li>
+        <li><i class="fa fa-circle-o text-yellow"></i> FireFox</li>
+        <li><i class="fa fa-circle-o text-aqua"></i> Safari</li>
+        <li><i class="fa fa-circle-o text-light-blue"></i> Opera</li>
+        <li><i class="fa fa-circle-o text-gray"></i> Navigator</li>
+      </ul>
+    </div>
+    <!-- /.col -->
+  </div>
+</mk-box>
